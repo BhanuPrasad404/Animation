@@ -1,0 +1,2735 @@
+
+#tom-5 {
+    width: 200px;
+    height: 200px;    
+}body,html {
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.forest {
+    background-image: url('./forest.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    
+   
+    
+   
+    
+    
+}
+
+
+.tom1 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    animation-name: tomx; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+#tom-1 {
+    width: 200px;
+    height: 200px; 
+    
+}
+.tom2 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    animation-name: tomy; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
+
+}
+#tom-2 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomx {
+    0% {
+        right: 20px;
+        opacity: 1;
+    }
+    25% {
+        right: 30px;
+        opacity: 0.75;
+    }
+    50% {
+        right:40px ;
+        opacity: 0.3;
+    }
+    75% {
+        right: 45px;
+        opacity: 0.1;
+    }
+    100% {
+        right: 50px;
+        opacity: 0;
+    }
+}
+
+@keyframes tomy {
+    0% {
+        
+        opacity: 0;
+    }
+    25% {
+        
+        opacity: 0.3;
+    }
+    50% {
+        
+        opacity: 0.5;
+    }
+    75% {
+        
+        opacity: 0.7;
+    }
+    100% {
+       
+        opacity: 1;
+    }
+}
+.tom3 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+    animation-name: tomz; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+   
+
+}
+#tom-3 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomy {
+    0% {
+        
+        opacity: 0.9;
+        right: 60px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 70px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 80px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 90px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 100px;
+    }
+}
+
+
+.tom4 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+    animation-name: toma; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode:forwards ;
+    animation-delay: 2s;
+    opacity: 0;
+
+   
+
+}
+#tom-4 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomz {
+    0% {
+        
+        opacity: 0.9;
+        right: 110px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 120px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 130px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 140px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 150px;
+    }
+}
+
+.tom5 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+    animation-name: tomb; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+    opacity: 0;
+
+   
+
+}
+@keyframes toma {
+    0% {
+        
+        opacity: 0.9;
+        right: 160px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 170px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 180px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 190px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 200px;
+    }
+}
+.tom6 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 250px;
+    animation-name: tomc; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    opacity: 0;
+
+   
+
+}
+#tom-6 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomb {
+    0% {
+        
+        opacity: 0.9;
+        right: 210px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 220px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 230px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 240px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 250px;
+    }
+}
+.tom7 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 300px;
+    animation-name: tomd; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+    opacity: 0;
+
+   
+
+}
+#tom-7 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomc {
+    0% {
+        
+        opacity: 0.9;
+        right: 260px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 270px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 280px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 290px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 300px;
+    }
+}
+
+.tom8 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 350px;
+    animation-name: tome; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    opacity: 0;
+
+   
+
+}
+#tom-8 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomd {
+    0% {
+        
+        opacity: 0.9;
+        right: 310px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 320px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 330px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 340px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 350px;
+    }
+}
+.tom9 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 400px;
+    animation-name: tomf; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 4.5s;
+    opacity: 0;
+
+   
+
+}
+#tom-9 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tome {
+    0% {
+        
+        opacity: 0.9;
+        right: 360px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 370px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 380px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 390px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 400px;
+    }
+}
+.tom10 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 450px;
+    animation-name: tomg; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    opacity: 0;
+
+   
+
+}
+#tom-10{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomf {
+    0% {
+        
+        opacity: 0.9;
+        right: 410px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 420px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 430px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 440px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 450px;
+    }
+}
+.tom11 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 500px;
+    animation-name: tomh; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 5.5s;
+    opacity: 0;
+
+   
+
+}
+#tom-11{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomg {
+    0% {
+        
+        opacity: 0.9;
+        right: 460px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 470px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 480px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 490px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 500px;
+    }
+} 
+.tom12 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 550px;
+    animation-name: tomi; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    opacity: 0;
+
+   
+
+}
+#tom-12{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomh {
+    0% {
+        
+        opacity: 0.9;
+        right: 510px;
+    }
+    25% {
+        
+        opacity: 0.6;
+        right: 520px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 530px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 540px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 550px;
+    }
+}
+.tom13 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 600px;
+    animation-name: tomj; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 6.5s;
+    opacity: 0;
+
+   
+
+}
+#tom-13{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomi {
+    0% {
+        
+        opacity: 0.9;
+        right: 560px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 570px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 580px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 590px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 600px;
+    }
+}
+.tom14 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 650px;
+    animation-name: tomk; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+    opacity: 0;
+    
+
+   
+
+}
+#tom-14{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomj {
+    0% {
+        
+        opacity: 0.9;
+        right: 610px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 620px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 630px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 640px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 650px;
+    }
+}
+.tom15 {
+    width: 200px;
+    height: 200px;
+  
+    position: absolute;
+    bottom: 0px;
+    right: 700px;
+    animation-name: toml; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 7.5s;
+    opacity: 0;
+    
+
+   
+
+}
+#tom-15{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomk {
+    0% {
+        
+        opacity: 0.9;
+        right: 660px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 670px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 680px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 690px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 700px;
+    }
+} 
+.tom16 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 800px;
+    animation-name: tomm; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+    opacity: 0;
+   
+    
+
+   
+
+}
+#tom-16{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes toml {
+    0% {
+        
+        opacity: 0.9;
+        right: 710px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 720px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 730px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 740px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 750px;
+    }
+} 
+.tom17 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 800px;
+    animation-name: tomn; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 8.5s;
+    opacity: 0;
+   
+    
+
+   
+
+}
+#tom-17{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomm{
+    0% {
+        
+        opacity: 0.9;
+        right: 760px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 770px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 780px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 790px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 800px;
+    }
+}
+.tom18 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 850px;
+    animation-name: tomo; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+    opacity: 0;
+
+}
+#tom-18{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomn{
+    0% {
+        
+        opacity: 0.9;
+        right: 810px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 820px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 830px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 840px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 850px;
+    }
+}
+.tom19 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 900px;
+    animation-name: tomp; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 9.5s;
+    opacity: 0;
+
+}
+#tom-19{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomo{
+    0% {
+        
+        opacity: 0.9;
+        right: 860px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 870px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 880px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 890px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 900px;
+    }
+} 
+.tom20 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 950px;
+    animation-name: tomq; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+    opacity: 0;
+
+}
+#tom-20{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomp{
+    0% {
+        
+        opacity: 0.9;
+        right: 910px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 920px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 930px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 940px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 950px;
+    }
+}
+.tom21 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 1000px;
+    animation-name: tomr; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 10.5s;
+    opacity: 0;
+
+}
+#tom-21{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomq{
+    0% {
+        
+        opacity: 0.9;
+        right: 960px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 970px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 980px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 990px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1000px;
+    }
+}
+.tom22 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 1050px;
+    animation-name: toms; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 11s;
+    opacity: 0;
+
+}
+#tom-22{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomr{
+    0% {
+        
+        opacity: 0.9;
+        right: 1010px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1020px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1030px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 1040px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1050px;
+    }
+}
+.tom23 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 1100px;
+    animation-name: tomt; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 11.5s;
+    opacity: 0;
+
+}
+#tom-23{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes toms{
+    0% {
+        
+        opacity: 0.9;
+        right: 1060px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1070px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1080px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 1090px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1100px;
+    }
+}
+.tom24 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 1150px;
+    animation-name: tomu; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+    opacity: 0;
+
+}
+#tom-24{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomt{
+    0% {
+        
+        opacity: 0.9;
+        right: 1100px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1120px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1130px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 1140px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1150px;
+    }
+}
+.tom25{
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 1200px;
+    animation-name: tomv; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 12.5s;
+    opacity: 0;
+
+}
+#tom-25{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomu{
+    0% {
+        
+        opacity: 0.9;
+        right: 1160px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1170px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1180px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 1190px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1200px;
+    }
+}
+.tom26{
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 1250px;
+    animation-name: tomaa; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 13s;
+    opacity: 0;
+
+}
+#tom-26{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomv{
+    0% {
+        
+        opacity: 0.9;
+        right: 1210px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1220px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1230px;
+    }
+    75% {
+        
+        opacity: 0.7;
+        right: 1240px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1250px;
+    }
+}
+.tom27{
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 1300px;
+    animation-name: tombb; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 13.5s;
+    opacity: 0;
+
+}
+#tom-27{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tomaa{
+    0% {
+        
+        opacity: 0.9;
+        right: 1260px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1270px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1280px;
+    }
+    75% {
+        
+        opacity: 0.5;
+        right: 1290px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1300px;
+    }
+}
+.tom28{
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 1350px;
+    animation-name: tomcc; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-delay: 14s;
+    opacity: 0;
+
+}
+#tom-28{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes tombb{
+    0% {
+        
+        opacity: 0.8;
+        right: 1310px;
+    }
+    25% {
+        
+        opacity: 0.7;
+        right: 1320px;
+    }
+    50% {
+        
+        opacity: 0.7;
+        right: 1330px;
+    }
+    75% {
+        
+        opacity: 0.5;
+        right: 1340px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1350px;
+    }
+}
+
+.jerry1 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    animation-name:jerryx ; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    opacity: 0;
+}
+#jerry-1 {
+    width: 200px;
+    height: 200px; 
+    
+}
+.jerry2 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    animation-name:jerryy ; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+    opacity: 0;
+
+}
+#jerry-2 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryx {
+    0% {
+        right: 20px;
+        opacity: 1;
+    }
+    25% {
+        right: 30px;
+        opacity: 0.75;
+    }
+    50% {
+        right:40px ;
+        opacity: 0.3;
+    }
+    75% {
+        right: 45px;
+        opacity: 0.1;
+    }
+    100% {
+        right: 50px;
+        opacity: 0;
+    }
+}
+
+@keyframes jerryy {
+    0% {
+        
+        opacity: 0;
+    }
+    25% {
+        
+        opacity: 0.3;
+    }
+    50% {
+        
+        opacity: 0.5;
+    }
+    75% {
+        
+        opacity: 0.7;
+    }
+    100% {
+       
+        opacity: 1;
+    }
+}
+.jerry3 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+    animation-name: jerryz; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    opacity: 0;
+   
+
+}
+#jerry-3 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryy {
+    0% {
+        
+        opacity: 0.9;
+        right: 60px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 70px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 80px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 90px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 100px;
+    }
+}
+.jerry4 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+    animation-name: jerrya; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+    opacity: 0;
+   
+
+}
+#jerry-4 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryz {
+    0% {
+        
+        opacity: 0.9;
+        right: 110px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 120px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 130px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 140px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 150px;
+    }
+}
+.jerry5 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+    animation-name: jerryb; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    opacity: 0;
+
+   
+
+}
+#jerry-5 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerrya {
+    0% {
+        
+        opacity: 0.9;
+        right: 160px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 170px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 180px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 190px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 200px;
+    }
+}
+.jerry6 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 250px;
+    animation-name: jerryc; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 4.5s;
+    opacity: 0;
+
+   
+
+}
+#jerry-6 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryb {
+    0% {
+        
+        opacity: 0.9;
+        right: 210px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 220px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 230px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 240px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 250px;
+    }
+}
+.jerry7 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 300px;
+    animation-name: jerryd; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    opacity: 0;
+
+   
+
+}
+#jerry-7 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryc {
+    0% {
+        
+        opacity: 0.9;
+        right: 260px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 270px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 280px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 290px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 300px;
+    }
+}
+
+.jerry8 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 350px;
+    animation-name: jerrye; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 5.5s;
+    opacity: 0;
+
+   
+
+}
+#jerry-8 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryd {
+    0% {
+        
+        opacity: 0.9;
+        right: 310px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 320px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 330px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 340px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 350px;
+    }
+}
+.jerry9 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 400px;
+    animation-name: jerryf; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    opacity: 0;
+
+   
+
+}
+#jerry-9 {
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerrye {
+    0% {
+        
+        opacity: 0.9;
+        right: 360px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 370px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 380px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 390px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 400px;
+    }
+}
+.jerry10 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 450px;
+    animation-name: jerryg; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 6.5s;
+    opacity: 0;
+
+   
+
+}
+#jerry-10{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryf {
+    0% {
+        
+        opacity: 0.9;
+        right: 410px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 420px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 430px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 440px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 450px;
+    }
+}
+.jerry11 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 500px;
+    animation-name: jerryh; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+    opacity: 0;
+
+   
+
+}
+#jerry-11{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryg {
+    0% {
+        
+        opacity: 0.9;
+        right: 460px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 470px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 480px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 490px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 500px;
+    }
+} 
+.jerry12 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 550px;
+    animation-name: jerryi; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 7.5s;
+    opacity: 0;
+
+   
+
+}
+#jerry-12{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryh {
+    0% {
+        
+        opacity: 0.9;
+        right: 510px;
+    }
+    25% {
+        
+        opacity: 0.6;
+        right: 520px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 530px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 540px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 550px;
+    }
+}
+.jerry13 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 600px;
+    animation-name: jerryj; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+    opacity: 0;
+
+   
+
+}
+#jerry-13{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryi {
+    0% {
+        
+        opacity: 0.9;
+        right: 560px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 570px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 580px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 590px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 600px;
+    }
+}
+.jerry14 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 650px;
+    animation-name: jerryk; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 8.5s;
+    opacity: 0;
+    
+
+   
+
+}
+#jerry-14{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryj {
+    0% {
+        
+        opacity: 0.9;
+        right: 610px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 620px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 630px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 640px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 650px;
+    }
+}
+.jerry15 {
+    width: 200px;
+    height: 200px;
+  
+    position: absolute;
+    bottom: 0px;
+    right: 700px;
+    animation-name: jerryl; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+    opacity: 0;
+    
+
+   
+
+}
+#jerry-15{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryk {
+    0% {
+        
+        opacity: 0.9;
+        right: 660px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 670px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 680px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 690px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 700px;
+    }
+} 
+.jerry16 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 800px;
+    animation-name: jerrym; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 9.5s;
+    opacity: 0;
+   
+    
+
+   
+
+}
+#jerry-16{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryl {
+    0% {
+        
+        opacity: 0.9;
+        right: 710px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 720px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 730px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 740px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 750px;
+    }
+} 
+.jerry17 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 800px;
+    animation-name: jerryn; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+    opacity: 0;
+   
+    
+
+   
+
+}
+#jerry-17{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerrym{
+    0% {
+        
+        opacity: 0.9;
+        right: 760px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 770px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 780px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 790px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 800px;
+    }
+}
+.jerry18 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 850px;
+    animation-name: jerryo; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 10.5s;
+    opacity: 0;
+
+}
+#jerry-18{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryn{
+    0% {
+        
+        opacity: 0.9;
+        right: 810px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 820px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 830px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 840px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 850px;
+    }
+}
+.jerry19 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 900px;
+    animation-name: jerryp; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 11s;
+    opacity: 0;
+
+}
+#jerry-19{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryo{
+    0% {
+        
+        opacity: 0.9;
+        right: 860px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 870px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 880px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 890px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 900px;
+    }
+} 
+.jerry20 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 950px;
+    animation-name: jerryq; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 11.5s;
+    opacity: 0;
+
+}
+#jerry-20{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryp{
+    0% {
+        
+        opacity: 0.9;
+        right: 910px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 920px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 930px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 940px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 950px;
+    }
+}
+.jerry21 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 1000px;
+    animation-name: jerryr; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+    opacity: 0;
+
+}
+#jerry-21{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryq{
+    0% {
+        
+        opacity: 0.9;
+        right: 960px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 970px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 980px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 990px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1000px;
+    }
+}
+.jerry22 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 1050px;
+    animation-name: jerrys; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 12.5s;
+    opacity: 0;
+
+}
+#jerry-22{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryr{
+    0% {
+        
+        opacity: 0.9;
+        right: 1010px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1020px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1030px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 1040px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1050px;
+    }
+}
+.jerry23 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 1100px;
+    animation-name: jerryt; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 13s;
+    opacity: 0;
+
+}
+#jerry-23{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerrys{
+    0% {
+        
+        opacity: 0.9;
+        right: 1060px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1070px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1080px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 1090px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1100px;
+    }
+}
+.jerry24 {
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 1150px;
+    animation-name: jerryu; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 13.5s;
+    opacity: 0;
+
+}
+#jerry-24{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryt{
+    0% {
+        
+        opacity: 0.9;
+        right: 1100px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1120px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1130px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 1140px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1150px;
+    }
+}
+.jerry25{
+    width: 200px;
+    height: 200px;
+    
+    position: absolute;
+    bottom: 0px;
+    right: 1200px;
+    animation-name: jerryv; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 14s;
+    opacity: 0;
+
+}
+#jerry-25{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryu{
+    0% {
+        
+        opacity: 0.9;
+        right: 1160px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1170px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1180px;
+    }
+    75% {
+        
+        opacity: 0.8;
+        right: 1190px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1200px;
+    }
+}
+.jerry26{
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 1250px;
+    animation-name: jerryaa; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 14.5s;
+    opacity: 0;
+
+}
+#jerry-26{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryv{
+    0% {
+        
+        opacity: 0.9;
+        right: 1210px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1220px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1230px;
+    }
+    75% {
+        
+        opacity: 0.7;
+        right: 1240px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1250px;
+    }
+}
+.jerry27{
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 1300px;
+    animation-name: jerrybb; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 15s;
+    opacity: 0;
+
+}
+#jerry-27{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerryaa{
+    0% {
+        
+        opacity: 0.9;
+        right: 1260px;
+    }
+    25% {
+        
+        opacity: 0.8;
+        right: 1270px;
+    }
+    50% {
+        
+        opacity: 0.8;
+        right: 1280px;
+    }
+    75% {
+        
+        opacity: 0.5;
+        right: 1290px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1300px;
+    }
+}
+.jerry28{
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    bottom: 0px;
+    right: 1350px;
+    animation-name: jerrycc; 
+    animation-duration: 0.5s;  
+    animation-timing-function: ease-in;
+    animation-delay: 15.5s;
+    opacity: 0;
+
+}
+#jerry-28{
+    width: 200px;
+    height: 200px;    
+}
+@keyframes jerrybb{
+    0% {
+        
+        opacity: 0.8;
+        right: 1310px;
+    }
+    25% {
+        
+        opacity: 0.7;
+        right: 1320px;
+    }
+    50% {
+        
+        opacity: 0.7;
+        right: 1330px;
+    }
+    75% {
+        
+        opacity: 0.5;
+        right: 1340px;
+    }
+    100% {
+       
+        opacity: 0;
+        right: 1350px;
+    }
+}
+.monkey1 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    top: 30px;
+    animation-name: key;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-iteration-count: 7;
+    animation-timing-function: ease-in;
+    
+    
+
+
+}
+#Monkey-1 {
+    width: 200px;
+    height: 200px;
+
+}
+@keyframes key {
+    0% {
+       opacity: 1;
+    }
+    50% {
+        opacity: 0.1;
+
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+.monkey2 {
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    top: 10px;
+    animation-name: key1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-iteration-count: 7;
+    animation-timing-function: ease-in;
+    
+    
+
+
+}
+#Monkey-2 {
+    width: 200px;
+    height: 200px;
+
+}
+@keyframes key1 {
+    0% {
+       opacity: 1;
+    }
+    50% {
+        opacity: 0.1;
+
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
